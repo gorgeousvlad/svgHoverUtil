@@ -1,0 +1,14 @@
+{
+  "name": "addhover",
+  "version": "0.0.1",
+  "description": "script adds hover image to svg pictures in given folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Kharitonov",
+  "license": "ISC",
+  "devDependencies": {
+    "xml2js": "^0.4.18"
+  }
+}
