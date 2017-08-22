@@ -8,7 +8,7 @@
 // folder - директория с svg файлами
 // filterName - опциональный параметр, имя фильтра из файла filter.js
 
-
+'use strict';
 var fs  = require("fs"),
 	xml2js = require('xml2js'),
 	parser = new xml2js.Parser(),
