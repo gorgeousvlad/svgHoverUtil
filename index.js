@@ -8,7 +8,8 @@
 // folder - директория с svg файлами
 // filterName - опциональный параметр, имя фильтра из файла filter.js
 
-'use strict';
+"use strict";
+
 var fs  = require("fs"),
 	xml2js = require('xml2js'),
 	parser = new xml2js.Parser(),
@@ -108,7 +109,7 @@ function processOneFile(fname,filter){
 function getUseAttr_(width){
 	return {
 		'$':{
-			"href":"#__common",
+			"xlink:href":"#__common",
 			"id":"hover",
 			"filter":"url(#colorChange)",
 			"transform":`translate(${width})`
